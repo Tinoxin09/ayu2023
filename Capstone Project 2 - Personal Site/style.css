@@ -1,0 +1,154 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* annimation of the hero section
+@keyframes animateGradient {
+  0% { background: linear-gradient(to bottom right, #f6d365, #fda085); }
+  25% { background: linear-gradient(to bottom right, #85e9e9, #85a3e9); }
+  50% { background: linear-gradient(to bottom right, #a1c4fd, #c2e9fb); }
+  75% { background: linear-gradient(to bottom right, #f093fb, #f5576c); }
+  100% { background: linear-gradient(to bottom right, #96fbc4, #f9f586); }
+}
+
+*/
+/*
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+} */
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.active > a {
+  text-decoration: underline;
+  color: red;
+}
+
+.hero {
+  
+  height: 100vh;
+  background: linear-gradient(-45deg, #757272, #814e62, #6263a5, #a6a0f7);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+
+  /* background: linear-gradient(to bottom right, #f6d365, #fda085);  Initial background gradient 
+  animation: animateGradient 60s infinite;  Adjust the duration as needed */
+}
+
+.eduhero {
+  height: 50vh;
+  background: linear-gradient(to bottom right, #f6d365, #fda085); /* Initial background gradient */
+  animation: animateGradient 10s infinite; /* Adjust the duration as needed */
+}
+
+.porthero {
+  height: 50vh;
+  background: linear-gradient(to bottom right, #f6d365, #fda085); /* Initial background gradient */
+  animation: animateGradient 10s infinite; /* Adjust the duration as needed */
+}
+
+.exphero {
+  height: 50vh;
+  background: linear-gradient(to bottom right, #f6d365, #fda085); /* Initial background gradient */
+  animation: animateGradient 10s infinite; /* Adjust the duration as needed */
+}
+
+.intro-potrait {
+  border-radius: 10px;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icon i {
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+/* external-styles.css */
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: inline-block;
+  font-size: 24px;
+  background-color: #007bff;
+  color: white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+.scroll-to-top:hover {
+  background-color: #0056b3;
+}
+
+
+.mes1 {
+  color: #007bff;
+}
+
+.mes {
+  color: red;
+}
+
+.ifrbox {
+  height: 500px;
+  border-radius: 10px;
+  background-image: url(./assests/Mathis.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: flex-end;
+}
+
+.client-services > li {
+  font-size: medium;
+  text-transform: lowercase;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+}
+
+/* education section styles */
+
+.dark-div {
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+}
+
+
+
+
+/* footer */
+
+.code {
+  color: Red;
+  font-weight: 900;
+}
+
+.x {
+  color: blue;
+  font-weight: 900;
+}
+/* {
+  font-family: 'Dancing Script', cursive;
+  
+}*/
